@@ -1,0 +1,336 @@
+.footercard
+{
+    margin-top: 100px;
+}
+
+
+.jobplaintext{
+margin-top: 100px!important;
+}
+.jobcontainer
+{
+    display: flex;
+    justify-content: center;
+   &__recent
+{
+    background-image: url('./Jobportalimages/portfoliobanner.png');
+    height:290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 96%!important;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+&__recent__text
+{
+    color: var(--white, #FFF);
+text-align: center;
+font-family: Quicksand;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.96px;
+}
+}
+#jobpara1
+{
+    color: var(--primary, #C63D33);
+text-align: center;
+font-family: Quicksand;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+#jobpara2
+{
+    color: var(--white, #FFF);
+text-align: center;
+font-family: Quicksand;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 62px; /* 129.167% */
+letter-spacing: 0.96px;
+}
+.job
+{  position: relative;
+    width: 90%;
+
+  display: flex;
+  justify-content: end;
+ 
+ margin-top: 100px!important;
+    &__containerdata
+    {
+        display: flex;
+        justify-content: end;
+      
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px silver;
+        border-bottom: 1px solid var(--primary, #C63D33);
+        
+background: #FFF;
+box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05);
+    }
+    &__container__text
+    { 
+       
+  width: 80%;
+  border-radius: 10px;
+
+background: #FFF;
+
+padding: 30px;
+    }
+    &__container__text__pic
+    {
+        position: absolute;
+        top: -40px;
+        left: 0px;
+    } 
+}
+
+.jobplaintext{
+    color: var(--black, #000);
+text-align: center;
+font-family: Quicksand;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.96px;
+}
+
+    #jobtextpara1
+    {
+        color: var(--black, #000);
+font-family: Quicksand;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 47px; /* 130.556% */
+letter-spacing: 0.72px;
+    }
+    #jobtextpara2
+    {
+        color: var(--text, #7A7A7A);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+    }
+
+
+
+    @media only screen and (min-width: 320px) and (max-width:767px)
+{
+    #jobpara2 {
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0.96px;
+    }
+    .jobcontainer
+    {
+        &__recent
+        {
+            height:221px;
+            width: 100%!important;
+        }
+    }
+   
+.job
+{  position: unset;
+    width: 100%!important;
+
+  display: flex;
+  justify-content: end;
+ 
+ margin-top: 36px!important;
+    &__containerdata
+    {
+        display: block;
+        justify-content: end;
+      
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px silver;
+        border-bottom: 1px solid var(--primary, #C63D33);
+        
+background: #FFF;
+box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05);
+    }
+    &__container__text
+    { 
+       
+        width: 100%;
+        border-radius: 10px;
+        background: #FFF;
+        padding: 10px;
+    }
+    &__container__text__pic
+    {
+     position: unset;
+    } 
+}
+#jobtextpara1
+{
+    text-align: center!important;
+    color: var(--black, #000);
+font-family: Quicksand;
+font-size: 31px;
+font-style: normal;
+font-weight: 600;
+line-height: 47px; /* 130.556% */
+letter-spacing: 0.72px;
+}
+#jobtextpara2
+{
+    color: var(--text, #7A7A7A);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+}
+.jobplaintext{
+    margin-top: 66px!important;
+    font-size: 30px;
+    }
+    #jobline{
+  width: 50%;
+  margin-left: 75px;
+    }
+.footercard
+{
+    margin-top: 50px;
+    &__firstpic
+    {
+        margin-top: 20px;
+    }
+    &__lastpic
+    {
+        margin-top: 20px;
+    }
+}
+#jobbodypic
+{
+    width: 100%!important;
+}
+}
+
+
+
+@media only screen and (min-width: 767px) and (max-width:1020px)
+{
+   
+    #jobpara2 {
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 30px!important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 49px;
+        letter-spacing: 0.96px;
+    }
+
+
+
+.jobcontainer
+{
+    &__recent
+    {
+        width: 100%!important;
+        height: 234px;
+    }
+}
+
+#jobtextpara1 {
+    text-align: center;
+    color: var(--black, #000);
+    font-family: Quicksand;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0.72px;
+}
+
+#jobtextpara2 {
+    color: var(--text, #7A7A7A);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.32px;
+}
+
+#jobtextpara1 {
+    text-align: center;
+    color: var(--black, #000);
+    font-family: Quicksand;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0.72px;
+}
+
+.job
+{
+    position: unset;
+    width: 100%!important;
+    display: block;
+    margin-top: 60px!important;
+    &__containerdata
+    {
+        display: block;
+    }
+    &__container__text
+    {
+width: 100%!important;
+    }
+    &__container__text__pic
+    {
+        position: unset;
+        display: flex;
+        justify-content: center;
+        height: 370px;
+    }
+    &__containerdata
+    {
+        width: 100%!important;
+     
+    }
+}
+#jobbodypic
+{
+    width: 50%!important;
+    
+}
+#jobline
+{
+    width: 40%;
+    margin-left: 30vw;
+}
+.jobplaintext {
+    margin-top: 47px !important;
+}
+.footercard{
+    margin-top: 47px !important;
+}
+
+}

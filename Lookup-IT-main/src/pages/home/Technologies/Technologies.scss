@@ -1,0 +1,254 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.line
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .linebox{
+        width: 25%;
+    }
+    .line img
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+.techcontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#062A46;
+  width: 90%;
+height: 19.39vw;
+flex-shrink: 0;
+border-radius:1.38vw;
+background: var(--secondy, #062A46);
+}
+
+.techtext
+{
+    color: var(--primary, #C63D33);
+text-align: center;
+font-family: Quicksand;
+font-size: 1.66vw;
+font-style: normal;
+font-weight: 41.55vw;
+line-height: normal;
+letter-spacing: 0.033vw;
+
+}
+.techtext2
+{
+    color: var(--white, #FFF);
+text-align: center;
+font-family: Quicksand;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 41.66vw;
+line-height: 4.30vw; /* 129.167% */
+letter-spacing: 0.066vw;
+}
+.tech{
+display: flex;
+justify-content: center;
+margin-bottom: 60px;
+}
+.tech_wework
+{
+  
+background: #FFF;
+ display: flex;
+ justify-content: center;
+
+}
+.tech_wework
+{
+display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+.tech_wework_container
+{
+ 
+width:90%;
+}
+.wework_container1
+{
+    color: var(--black, #000);
+text-align: center;
+font-family: Quicksand;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.96px;
+
+}
+.wework_container2
+{
+    color: var(--text, #7A7A7A);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.32px;
+
+}
+.reactscontainer
+{
+  display: flex;
+  justify-content: center;
+
+}
+.reacts{
+ 
+
+}
+.row {
+    --bs-gutter-x: 0.5rem;
+    }
+@media only screen and (min-width: 320px) and (max-width:767px)
+{
+    .techcontainer
+    {
+        width: 100%;
+        height: 46.39vw;
+    }
+    .techtext1
+    {
+        font-size: 13.16vw;
+      
+    }
+    .techtext2
+    {   font-size: 3.8vw!important;
+        line-height: 7.3vw;
+    }
+    .tech_wework {
+    width: 100%;
+    height: auto;
+
+    }
+    .row {
+    --bs-gutter-x: 0.5rem;
+    }
+    .wework_container2 {
+    color: var(--text, #7A7A7A);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 23px;
+    letter-spacing: 0px;
+}
+.linebox
+{
+    stroke-width: 1px;
+stroke: var(--primary, #C63D33);
+margin-top: -13px;
+width: 83%;
+}
+.wework_container1 
+{
+    font-size: 22px;
+}
+}
+@media only screen and (min-width:430px) and (max-width: 1020px) {
+   .techtext1{
+    font-size: 3.16vw;
+   }
+   .wework_container2 {
+    color: var(--text, #7A7A7A);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.32px;
+}
+.tech_wework {
+    width: 100%;
+    height: auto;
+    background: #FFF;
+
+}
+.linebox {
+    width: 64%;
+}
+}
+.reacts{
+  
+    // width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  
+}
+#pos
+{
+    margin-top: 30px;
+}
+.techcard
+{
+box-shadow: 2px 2px 4px 2px rgb(225, 223, 223);
+   width: 202px;
+height: 159px;
+flex-shrink: 0;
+border-radius: 20px;
+background-color: #E0E0E0;
+background-color: #FFFFFF;
+display: flex;
+justify-content: center;
+}
+.techcardbody h4
+{
+margin-top: 40px;
+}
+.techcardbody img{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
+@media only screen and (min-width: 320px) and (max-width:767px)
+{
+.reacts{
+margin-top: 20px;
+}
+#pos
+{
+    margin-top: 0px;
+}
+.techcard {
+box-shadow: 2px 2px 2px 2px red;
+width: 260px;
+height: 172px;
+flex-shrink: 0;
+border-radius: 20px;
+background-color: #E0E0E0;
+background-color: #FFFFFF;
+}
+}
+@media (max-width: 1024px) {
+  
+
+.techcard {
+margin-top: -20px;
+box-shadow: 2px 2px 2px 2px red;
+width: 303px;
+height: 187px;
+flex-shrink: 0;
+border-radius: 20px;
+background-color: #E0E0E0;
+background-color: #FFFFFF;
+}
+#pos
+{
+    margin-top: 0px;
+}
+}

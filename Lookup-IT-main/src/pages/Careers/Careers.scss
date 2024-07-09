@@ -1,0 +1,277 @@
+.Careerscontainer
+{
+    display: flex;
+    justify-content: center;
+   &__recent
+{
+    background-image: url('./Careersimages/portfoliobanner.png');
+    height:290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+&__recent__text
+{
+    color: var(--white, #FFF);
+text-align: center;
+font-family: Quicksand;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.96px;
+}
+}
+#careerspara1
+{
+    color: var(--primary, #C63D33);
+text-align: center;
+font-family: Quicksand;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+#Careerspara2
+{
+    color: var(--white, #FFF);
+text-align: center;
+font-family: Quicksand;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 62px; /* 129.167% */
+letter-spacing: 0.96px;
+}
+.Careerpara
+{
+    text-align: justify;
+    color: var(--text, #7A7A7A);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+padding: 50px;
+}
+
+.Careerspictextcontainer
+{
+    display: flex;
+    justify-content: center;
+    &__row
+    {
+        width: 95%;
+    }
+  &__row__colone
+    {
+        height: 600px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+}
+.Careerstext{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+.careercards__container__rightcard__one
+{
+   padding:40px;
+}
+.careers__cardheading
+{
+    color: var(--black, #000);
+font-family: Quicksand;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.careers__cardbody
+{
+    color: var(--text, #7A7A7A);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.32px;
+}
+.careersfootertext
+{
+    color: var(--black, #000);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+}
+
+
+.careercards
+{
+    display: flex;
+    justify-content: center;
+    &__container
+    {
+      display: flex;
+      justify-content: space-between;
+   width: 90%;
+    }
+    &__container__right
+    {
+        // style={{borderRadius:'50px',boxShadow:'-4px 2px -4px red',width:'48%'}}
+        // border-radius: 50px;
+        width: 48%!important;
+        border-radius: 50px!important;
+border-left: 1px solid var(--primary, #C63D33)!important;
+background: #FFF;
+box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.04)!important;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width:767px)
+{
+// #Careerspara2 {
+//     color: var(--white, #FFF);
+//     text-align: center;
+//     font-family: Quicksand;
+//     font-size: 22px;
+//     font-style: normal;
+//     font-weight: 600px;
+//     line-height: 35px;
+//     letter-spacing: 0.9px;
+// }
+
+.Careerscontainer
+{
+&__recent {
+   
+    height: 149px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+&__recent__text {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+}
+.Careerspictextcontainer
+{
+&__row
+{
+    width: 100%;
+}
+&__row__colone
+{
+    height: 278px!important;
+}
+}
+.Careerstext
+{
+    padding: 0px;
+}
+.Careerpara {
+    text-align: justify;
+    color: var(--text, #7A7A7A);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    padding: 20px;
+}
+.careercards
+{
+    &__container {
+        display: block;
+      
+        width: 100%;
+    }
+    &__container__right
+    {
+        width:100%!important;
+        margin-top: 20px;
+    }
+}
+.careercards__container__rightcard__one
+{
+   padding:15px;
+}
+.careers__cardheading {
+    text-align: center;
+}
+}
+
+@media only screen and (min-width:767px) and (max-width:1020px)
+{
+    .Careerscontainer__recent {
+      
+        height: 290px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%!important;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Careerspictextcontainer__row {
+        width: 100%;
+        display: block;
+    }
+    .Careerspictextcontainer__row {
+        width: 100%;
+        display: block;
+    }
+    .Careerspictextcontainer__row__colone
+    {
+        width: 100%;
+        height: 550px;
+    }
+    .Careerstext
+    {
+        width: 100%;
+    }
+    .careercards__container {
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .careercards__container__right
+    {
+        width: 100%!important;
+    }
+    #careersfooterspace
+    {
+        margin-top: 20px;
+    }
+}

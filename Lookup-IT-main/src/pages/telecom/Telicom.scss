@@ -1,0 +1,576 @@
+.telicom {
+  margin-top: 2vw;
+display: flex;
+align-items: center;
+justify-content: center;
+&__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../Assets/images/baground.png");
+  width: 1300px;
+  height: 316px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  &__head p {
+    color: var(--primary, #c63d33);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+  }
+  &__sub {
+    width: 80%;
+    p {
+      color: var(--white, #fff);
+      text-align: center;
+      font-family: Quicksand;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 62px; /* 129.167% */
+      letter-spacing: 0.96px;
+    }
+  }
+}
+}
+
+
+
+.telitwo {
+display: flex;
+align-items: center;
+justify-content: center;
+&__mane {
+  width: 95%;
+  display: flex;
+  &__left {
+      margin-right: -8px;
+      z-index: 1;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__center {
+     
+      border-radius: 10px;
+      border-bottom: 1px solid var(--primary, #c63d33);
+      background: #fff;
+      box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05);
+      padding: 1.5vw 2.5vw 1.5vw 2.5vw;
+      &__h {
+        color: var(--black, #000);
+        font-family: Quicksand;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 47px; /* 130.556% */
+        letter-spacing: 0.72px;
+      }
+      &__co {
+        color: var(--text, #7a7a7a);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        letter-spacing: 0.32px;
+      }
+    }
+  }
+}
+}
+
+.telithree{
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__mai{
+      width: 95%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      &__one{
+          margin-top: 2vw;
+          padding: 1.5vw 1vw 1.5vw 1vw;
+          width: 23%;
+          display: flex;
+          flex-direction: column;
+          border-radius: 20px;
+          border-left: 1px solid var(--primary, #C63D33);
+          background: #FFF;
+          box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.04);
+          &__h{
+              color: var(--black, #000);
+              font-family: Quicksand;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              letter-spacing: 0.48px;
+
+          }
+          &__co{
+              // text-align: justify;
+              color: var(--text, #7A7A7A);
+              font-family: Quicksand;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 28px; /* 175% */
+              letter-spacing: 0.32px;
+
+          }
+      }
+  }
+}
+
+.telifour{
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__maine{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      &__h{
+          color: var(--black, #000);
+          text-align: center;
+          font-family: Quicksand;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: 0.96px;
+      }
+      &__b{
+
+      }
+  }
+}
+
+.telifive{
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__main{
+      width: 95%;
+      display: flex;
+      &__left{
+          img{
+              width: 100%;
+          }
+
+      }
+      &__right{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          &__up {
+              display: flex;
+              justify-content: center;
+          img{
+              width: 93%;
+          }
+          }
+          &__dowm{
+              display: flex;
+              justify-content: space-around;
+              img{
+                  width: 45%;
+              }
+          }
+      }
+  }
+}
+
+
+
+
+////////////////
+/// Tablet//////
+@media screen and (max-width:1023px) {
+  .telicom {
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93vw;
+    height: 22vh;
+    background-image: url("../../Assets/images/baground.png");
+    &__head p {
+      color: var(--primary, #c63d33);
+      text-align: center;
+      font-family: Quicksand;
+      font-size: 3vw;
+      font-style: normal;
+      font-weight: 600;
+    }
+    &__sub {
+      width:100%;
+      p {
+        color: var(--white, #fff);
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 4vw; /* 129.167% */
+        letter-spacing: 0.96px;
+      }
+    }
+  }
+  }
+  .telitwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__mane {
+      width: 95%;
+      display: flex;
+      flex-direction: column-reverse;
+      &__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          height: 93vw;
+          margin-top: 3vw;
+        }
+      }
+      &__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &__center {
+          margin-top: 2vw;
+          width: 90%;
+          border-radius: 10px;
+          border-bottom: 1px solid var(--primary, #c63d33);
+          background: #fff;
+          box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05);
+          padding: 1.5vw 2.5vw 1.5vw 2.5vw;
+          &__h {
+            text-align: center;
+            color: var(--black, #000);
+            font-family: Quicksand;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 47px; /* 130.556% */
+            letter-spacing: 0.72px;
+          }
+          &__co {
+            color: var(--text, #7a7a7a);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+            letter-spacing: 0.32px;
+          }
+        }
+      }
+    }
+    }
+  
+    .telithree{
+      margin-top: 2vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__mai{
+          width: 90%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          &__one{
+              margin-top: 2vw;
+              padding: 1.5vw 1vw 1.5vw 1vw;
+              width: 47%;
+              display: flex;
+              flex-direction: column;
+              border-radius: 20px;
+              border-left: 1px solid var(--primary, #C63D33);
+              background: #FFF;
+              box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.04);
+              &__h{
+                  color: var(--black, #000);
+                  font-family: Quicksand;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: normal;
+                  letter-spacing: 0.48px;
+              }
+              &__co{
+                  // text-align: justify;
+                  color: var(--text, #7A7A7A);
+                  font-family: Quicksand;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 28px; /* 175% */
+                  letter-spacing: 0.32px;
+              }
+          }
+      }
+    }
+    .telifour{
+      &__maine{
+          &__h{
+            p{
+              color: var(--black, #000);
+              text-align: center;
+              font-family: Quicksand;
+              font-size: 5vw;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              letter-spacing: 0.96px;
+              margin-bottom: 0px;
+            }
+          }
+          &__b{
+    
+          }
+      }
+    }
+    
+    .telifive{
+      margin-top: 2vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__main{
+          width: 95%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          &__left{
+            display: flex;
+            justify-content: center;
+              img{
+                  width: 95%;
+              }
+    
+          }
+          &__right{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              &__up {
+                  display: flex;
+                  justify-content: center;
+              img{
+                margin-top: 2vw;
+                  width: 95%;
+              }
+              }
+              &__dowm{
+                  display: flex;
+                  justify-content: space-around;
+                  img{
+                    margin-top: 2vw;
+                      width: 45%;
+                  }
+              }
+          }
+      }
+    }
+    
+}
+
+
+
+
+
+
+////////////////
+/// Mobile//////
+@media screen and (max-width:480px) {
+  .telicom {
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94vw;
+    height: 25vw;
+    background-image: url("../../Assets/images/baground.png");
+    &__head p {
+      margin-bottom: 2vw;
+      color: var(--primary, #c63d33);
+      text-align: center;
+      font-family: Quicksand;
+      font-size: 6vw;
+      font-style: normal;
+      font-weight: 600;
+    }
+    &__sub {
+      width:100%;
+      p {
+        color: var(--white, #fff);
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 4vw; /* 129.167% */
+        letter-spacing: 0.96px;
+      }
+    }
+  }
+  }
+  .telitwo {
+    &__mane {
+      &__left {
+        img{
+          height: 93vw;
+          margin-top: 3vw;
+        }
+      }
+      &__right {
+        &__center {
+          margin-top: 2vw;
+          width: 90%;
+          border-radius: 10px;
+          border-bottom: 1px solid var(--primary, #c63d33);
+          background: #fff;
+          box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05);
+          padding: 1.5vw 2.5vw 1.5vw 2.5vw;
+          &__h {
+            text-align: center;
+            color: var(--black, #000);
+            font-family: Quicksand;
+            font-size: 5vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 47px; /* 130.556% */
+            letter-spacing: 0.72px;
+          }
+          &__co {
+            font-size: 2.7vw;
+            font-style: normal;
+            font-weight: 400;
+            text-align: justify;
+            line-height: 20px; /* 175% */
+            letter-spacing: 0.32px;
+          }
+        }
+      }
+    }
+    }
+  
+    .telithree{
+      margin-top: 2vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__mai{
+          width: 90%;
+          &__one{
+              margin-top: 3.5vw;
+              width: 95%;
+
+              &__h{
+                  text-align: center;
+                  font-size: 4.2vw;
+
+              }
+              &__co{
+                  // text-align: justify;
+                  color: var(--text, #7A7A7A);
+                  font-family: Quicksand;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 28px; /* 175% */
+                  letter-spacing: 0.32px;
+              }
+          }
+      }
+    }
+    .telifour{
+      &__maine{
+          &__h{
+            p{
+              color: var(--black, #000);
+              text-align: center;
+              font-family: Quicksand;
+              font-size: 5vw;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              letter-spacing: 0.96px;
+              margin-bottom: 0px;
+            }
+          }
+          &__b{
+    
+          }
+      }
+    }
+    
+    .telifive{
+      margin-top: 2vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__main{
+          width: 95%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          &__left{
+            display: flex;
+            justify-content: center;
+              img{
+                  width: 95%;
+              }
+    
+          }
+          &__right{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              &__up {
+                  display: flex;
+                  justify-content: center;
+              img{
+                margin-top: 2vw;
+                  width: 95%;
+              }
+              }
+              &__dowm{
+                  display: flex;
+                  justify-content: space-around;
+                  img{
+                    margin-top: 2vw;
+                      width: 45%;
+                  }
+              }
+          }
+      }
+    }
+    
+}

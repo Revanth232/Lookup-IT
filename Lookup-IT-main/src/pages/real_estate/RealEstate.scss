@@ -1,0 +1,463 @@
+.realEstate{
+    margin-top: 4vw;
+    &_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6.5vw;
+        &_header{
+            background: url('../../Assets/images/header_bg.png');
+            width: 95%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height:340px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            .heading_realEstate{
+                color: var(--primary, #C63D33);
+                text-align: center;
+                font-family: Quicksand;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.48px;
+            }
+            .content_realEstate{
+                color: var(--white, #FFF);
+                text-align: center;
+                font-family: Quicksand;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 62px; /* 129.167% */
+                letter-spacing: 0.96px;
+                display: flex;
+                justify-content: center;
+                padding: 0px 6vw;
+                width: 1362px;
+            }
+        }
+    }
+    .realEstatess_container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 97%;
+        position: relative;
+        margin-bottom: 7vw;
+        &_card{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 1016px;
+            height: 837px;
+            border-radius: 10px;
+            border-bottom: 1px solid var(--primary, #C63D33);
+            background: #FFF;
+            box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05);
+            &_content{
+                width: 905px;
+                    img{
+                    position: absolute;
+                    top: -2.5vw;
+                    left: 2.5vw;
+                }
+                .img2{
+                    position: absolute;
+                    top: 38vw;
+                    left: 0;
+                }
+                // .img3{
+                //     position: absolute;
+                //     top: 50vw;
+                //     left: 0;
+                // }
+                .realEstatess_heading{
+                    color: var(--black, #000);
+                    font-family: Quicksand;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 47px; /* 130.556% */
+                    letter-spacing: 0.72px;
+                }
+                .realEstatess_content{
+                    width: 751px;
+                    color: var(--text, #7A7A7A);
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px; /* 175% */
+                    letter-spacing: 0.32px;
+                    text-align: justify;
+                }  
+                .realEstatess_heading2{
+                    color: var(--black, #000);
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 28px; /* 175% */
+                    letter-spacing: 0.32px;
+                }
+                ul li{
+                    color: var(--text, #7A7A7A);
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0.32px;
+                }
+            }
+        }
+    }
+    .ourwork{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_container{
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            &_heading{
+                color: var(--black, #000);
+                text-align: center;
+                font-family: Quicksand;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.96px;
+            }
+        }
+    }
+    .ourwork_container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+        &_img{
+            width: 90%;
+         display: flex;  
+         justify-content: space-between;
+         .ourimg1,.ourimg2,.ourimg3,.ourimg4{
+            padding: 12px;
+         }
+        }
+        
+    }
+}
+@media only screen and (max-width: 480px) {
+    .realEstate{
+        margin-top: 3vw;
+        &_container{
+            margin-bottom: 1.5vw;
+            &_header{
+                width: 100%;
+                height:110px;
+                .heading_realEstate{
+                    font-size: 16px;
+                }
+                .content_realEstate{
+                    font-size: 16px;
+                    line-height: 20px; /* 129.167% */
+                    width: 100%;
+                }
+            }
+        }
+        .realEstatess_container{
+            justify-content: center;
+            margin-bottom: 4vw;
+            &_card{
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                &_content{
+                    width: 100%;
+                        img{
+                        position: static;
+                        width: 100%;
+                        height: 40vh;
+                    }
+                    .img2{
+                        display: none;
+                    }
+                    .realEstatess_heading{
+                        font-size: 26px;
+                        line-height: 37px; 
+                    }
+                    .realEstatess_content{
+                        width: 98%;
+                        font-size: 16px;
+                        line-height: 24px; 
+                    } 
+                }
+            }
+        }
+        .ourwork{
+            &_container{
+                &_heading{
+                    font-size: 28px;
+                    p{
+                        margin-bottom: 0; 
+                    }  
+                }
+            }
+        }
+        .ourwork_container2{
+        
+            &_img{
+            width: 100%;
+            flex-direction: column;
+             .ourimg1,.ourimg2,.ourimg3,.ourimg4{
+                padding: 6px;
+                width: 100%;
+             }
+            }
+            
+        }
+       
+    }
+}
+@media only screen and (min-width: 481px)and (max-width: 767px) {
+    .realEstate{
+        margin-top: 3vw;
+        &_container{
+            margin-bottom: 1.5vw;
+            &_header{
+                width: 100%;
+                height:190px;
+                .heading_realEstate{
+                    font-size: 18px;
+                }
+                .content_realEstate{
+                    font-size: 19px;
+                    line-height: 30px; /* 129.167% */
+                    width: 100%;
+                }
+            }
+        }
+        .realEstatess_container{
+            justify-content: center;
+            margin-bottom: 4vw;
+            &_card{
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                &_content{
+                    width: 100%;
+                        img{
+                        position: static;
+                        width: 100%;
+                        height: 40vh;
+                    }
+                    .img2{
+                        display: none;
+                    }
+                    .realEstatess_heading{
+                        font-size: 26px;
+                        line-height: 37px; 
+                    }
+                    .realEstatess_content{
+                        width: 98%;
+                        font-size: 16px;
+                        line-height: 24px; 
+                    } 
+                }
+            }
+        }
+        .ourwork{
+            &_container{
+                &_heading{
+                    font-size: 28px;
+                    p{
+                        margin-bottom: 0; 
+                    }  
+                }
+            }
+        }
+        .ourwork_container2{
+        
+            &_img{
+            width: 100%;
+            flex-direction: column;
+             .ourimg1,.ourimg2,.ourimg3,.ourimg4{
+                padding: 6px;
+                width: 100%;
+             }
+            }
+            
+        }
+       
+    }
+}
+@media only screen and (min-width:767px)and (max-width:1023px) {
+    .realEstate{
+        margin-top: 3vw;
+        &_container{
+            margin-bottom: 1.5vw;
+            &_header{
+                width: 100%;
+                height:220px;
+                .heading_realEstate{
+                    font-size: 22px;
+                }
+                .content_realEstate{
+                    font-size: 26px;
+                    line-height: 40px; /* 129.167% */
+                    width: 100%;
+                }
+            }
+        }
+        .realEstatess_container{
+            justify-content: center;
+            margin-bottom: 4vw;
+            &_card{
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                &_content{
+                    width: 100%;
+                        img{
+                        position: static;
+                        width: 90%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        height: 40vh;
+                    }
+                    .img2{
+                        display: none;
+                    }
+                    .realEstatess_heading{
+                        font-size: 30px;
+                        line-height: 37px; 
+                    }
+                    .realEstatess_content{
+                        width: 98%;
+                        font-size: 20px;
+                        line-height: 34px; 
+                    } 
+                }
+            }
+        }
+        .ourwork{
+            &_container{
+                &_heading{
+                    font-size: 28px;
+                    p{
+                        margin-bottom: 0; 
+                    }  
+                }
+            }
+        }
+        .ourwork_container2{
+        
+            &_img{
+            width: 100%;
+            flex-direction: column;
+             .ourimg1,.ourimg2,.ourimg3,.ourimg4{
+                padding: 6px;
+                width: 100%;
+             }
+            }
+            
+        }
+       
+    }
+}
+@media only screen and (min-width: 1023px)and (max-width: 1279px) {
+    .realEstate{
+        margin-top: 4vw;
+        &_container{
+            margin-bottom: 4.5vw;
+            &_header{
+                height:240px;
+                width: 100%;
+                .heading_realEstate{
+                    font-size: 22px;
+                }
+                .content_realEstate{
+                    width: 100%;
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 42px; 
+                    padding: 0px 4vw;
+                }
+            }
+        }
+        .realEstatess_container{
+            margin-bottom: 6vw;
+            &_card{
+                width: 52%;
+                height: auto;
+                &_content{
+                    width: 90%;
+                        img{
+                        position: absolute;
+                        top: -2.5vw;
+                        left: 2.5vw;
+                    }
+                    .img2{
+                        top: 70vh;
+                    }
+                    
+                    .realEstatess_content{
+                        width: 100%;
+                    } 
+                }
+            }
+        }
+        .ourwork{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_container{
+                width: 95%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                &_heading{
+                    color: var(--black, #000);
+                    text-align: center;
+                    font-family: Quicksand;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.96px;
+                }
+            }
+        }
+        .ourwork_container2{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3vw;
+            margin-bottom: 5vw;
+            &_img{
+            width: 90%;
+             display: flex;  
+             justify-content: space-between;
+             align-items: center;
+             .ourimg1,.ourimg2,.ourimg3,.ourimg4{
+                padding: 12px;
+                width: 100%;
+
+             }
+            }
+            
+        }
+      
+    }
+}

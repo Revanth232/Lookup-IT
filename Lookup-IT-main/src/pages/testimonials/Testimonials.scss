@@ -1,0 +1,325 @@
+.testimoni{
+    background-color: #FFFBEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__main{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &__one{
+            margin-top: 1vw;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__two{
+            width: 70%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            p{
+                font-size: 32px;
+                color: var(--primary, #C63D33);
+                font-weight: 400;
+            }
+            h2{
+                margin-top: 0.5vw;
+                text-align: center;
+                font-family: 'Quicksand';
+                font-size: 90px;
+                color: var(--black, #000);
+                font-weight: 400;
+                letter-spacing: 3px;
+                span{
+                    background-color: #FFE482;
+                    border-radius: 50px;
+                    width: 312px;
+                    height: 80px;
+                }
+            }
+        }
+        &__three{
+            margin-top: 3vw;
+            width: 98%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+.engagements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__hd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            // margin: 0px;
+            font-size: 3vw;
+            font-weight: 500;
+        }
+        &__cont{
+            p{
+                font-size: 2vw;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.testimo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        &__move{
+          margin-top: 3vw;
+          width: 95%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          &__one{
+            margin-top: 5vw;
+            padding-top: 5vw;
+            width: 31%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            background: #FFF;
+            box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.05);
+            &__img{
+              width: 20%;
+              position: absolute;
+              top: -7vh;
+              left: 10vw;
+            }
+            &__conte{
+              text-align: center;
+  
+              h3{
+                  margin-top: 1vw;
+                  text-align: center;
+              }
+              p{
+                text-align: justify;
+                padding: 1vw 3vw 1vw 3vw ;
+                color: var(--text, #7A7A7A);
+              }
+              h5{
+                text-align: center;
+                font-size: 1.2vw;
+                color: #C63D33 ;
+                letter-spacing: 0.32px;
+                font-weight: 500;
+                padding-bottom: 1vw;
+  
+              }
+            }
+        }
+    }
+}
+
+
+//////
+/// Tablet////
+/// ///////
+@media screen and (max-width:1023px) {
+    .testimoni{
+        &__main{
+            width: 90%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            &__one{
+                margin-top: 1vw;
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            &__two{
+                width: 70%;
+                p{
+                    font-size: 3.3vw;
+
+                }
+                h2{
+                    font-size: 7vw;
+                    span{
+                        background-color: #FFE482;
+                        border-radius: 50px;
+                        width: 312px;
+                        height: 80px;
+                    }
+                }
+            }
+            &__three{
+            }
+        }
+    }
+    .testimo{
+            &__move{
+              margin-top: 3vw;
+              width: 95%;
+              &__one{
+                margin: 4vw;
+                width: 40%;
+                position: relative;
+                display: flex;
+                align-items: center;
+                border-radius: 10px;
+                background: #FFF;
+                box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.05);
+                &__img{
+                  position: absolute;
+                  top: -7vh;
+                  left: 12vw;
+                  img{
+                    width: 150%;
+                  }
+                }
+                &__conte{
+                  text-align: center;
+      
+                  h3{
+                      margin-top: 1vw;
+                      text-align: center;
+                  }
+                  p{
+                    font-size: 2.2vw;
+                  }
+                  h5{
+  
+                    font-size: 2vw;
+                  }
+                }
+            }
+        }
+    }
+    
+    
+}
+
+//////
+///// Mobile/////
+/// 
+@media screen and (max-width:480px) {
+    .testimoni{
+        &__main{
+            width: 90%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            &__one{
+                
+                margin-top: 1vw;
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                img{
+                    width: 20%;
+                }
+            }
+            &__two{
+                width: 70%;
+                p{
+                    font-size: 4vw;
+
+                }
+                h2{
+                    font-size: 6vw;
+                    span{
+                    }
+                }
+            }
+            &__three{
+                img{
+                    width: 20%;
+                }
+            }
+        }
+    }
+    .engagements{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__hd{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                margin-bottom: 0px;
+                font-size: 6vw;
+                font-weight: 500;
+            }
+            &__cont{
+                p{
+                    text-align: center;
+                    font-size: 3.8vw;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .testimo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            &__move{
+              margin-top: 7vw;
+              width: 95%;
+              display: flex;
+              justify-content: center;
+              flex-wrap: wrap;
+              &__one{
+                margin-top: 11vw;
+                padding-top: 5vw;
+                width: 85%;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                background: #FFF;
+                box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.05);
+                &__img{
+                  width: 20%;
+                  position: absolute;
+                  top: -7vh;
+                  left: 26vw;
+                }
+                &__conte{
+                  text-align: center;
+      
+                  h3{
+                      margin-top: 6vw;
+                      text-align: center;
+                  }
+                  p{
+                    font-size: 4.5vw;
+                    text-align: justify;
+                    padding: 1vw 3vw 1vw 3vw ;
+                    color: var(--text, #7A7A7A);
+                  }
+                  h5{
+                    text-align: center;
+                    font-size: 4.5vw;
+                    color: #C63D33 ;
+                    letter-spacing: 0.32px;
+                    font-weight: 500;
+                    padding-bottom: 1vw;
+      
+                  }
+                }
+            }
+        }
+    }
+
+}

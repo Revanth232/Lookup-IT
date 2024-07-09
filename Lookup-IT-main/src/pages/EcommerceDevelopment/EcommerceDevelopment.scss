@@ -1,0 +1,301 @@
+.Ecommercecards__cards:hover{
+    background-color: cyan;
+    border-radius: 2px 2px 2px 2px silver;
+}
+.Ecommercecardscontainer
+{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+.mains
+{
+    width: 100% !important;  
+}
+#styles
+{
+background-color: #ffe482;
+border-radius: 50px;
+}
+.Ecommercehead{
+    display: flex;
+    justify-content: center;
+ 
+}
+.Ecommercehead
+{
+    &__left
+    {
+
+   display: flex;
+   justify-content: center;
+    }
+    &__left__text
+    {
+        width: 80%;
+       
+    }
+    &__left__text__content
+    {
+        color: var(--black, #000);
+font-family: Quicksand;
+font-size: 6.64vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.92px;
+margin-left: 20px;
+    }
+    &__right
+    {
+    
+     display: flex;
+
+  
+    }
+    &__right__container
+    {
+width: 90%;
+    }
+    &__right__container__star
+    {
+       display: flex;
+     justify-content: flex-end;
+     width: 30px;
+     height: 30px;
+     
+    }
+    &__right__container__star
+    {
+       display: flex;
+     justify-content: flex-end;
+     width: 40px;
+     height: 40px;
+     
+    }
+&__right__container2
+{
+    position: absolute;
+    top: 20px;
+  
+}
+&__right__container1
+{
+
+}
+&__right__container__star__containerdata
+{
+position: relative;
+}
+}
+.EcommerceDevelopmentBody1
+{  
+ margin-top: 110px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__container
+    {
+        width: 80%!important;
+    }
+   
+    &__text1
+    {
+        text-align: center;
+        color: var(--black, #000);
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 600!important;
+line-height: normal;
+letter-spacing: 0.96px;
+    }
+    &__text2
+    {
+    
+        text-align: center;
+        color: var(--text, #7A7A7A);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400px;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.32px;
+    }
+}
+.line
+{
+    text-align: center;
+}
+// .Ecommercecards img
+// {
+// width: 100%;
+// }
+.Ecommercecards
+{
+    width: 95%;
+    &__cards
+    {
+        padding: 30px;
+        border-radius: 25px!important;
+box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.04);
+width: 668px;
+height: 384px;
+flex-shrink: 0;
+display:'flex';
+width:'95%';
+
+    }
+   
+    &__image 
+    {
+        width: 60px;
+        height: 60px;
+        background-color: #c63d33;
+        border-radius: 50px;
+        border: 2px solid red;
+        margin-bottom: 20px;
+    }
+    &__header
+    {
+        color: var(--black, #000);
+// font-family: Quicksand;
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+    }
+    &__text
+    {
+        color: var(--text, #7A7A7A);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400px;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+width: 90%;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width:767px)
+{
+    .Ecommercehead
+{
+    &__left__text__content
+    {
+    font-size: 36px;
+    }
+    &__right__container
+    {
+width: 100%;
+    }
+    
+}
+.EcommerceDevelopmentBody1
+{
+    margin-top: 56px !important;
+    &__text1
+    {
+        font-size: 40px;
+    }
+&__text2 {
+    text-align: center;
+    color: var(--text, #7A7A7A);
+    text-align: start;
+    // font-family: Poppins;
+    // font-family: 'Quicksand', sans-serif;
+    // font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+
+    color: var(--text, #7A7A7A);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+}
+&__container
+{
+    width: 100%!important;
+}
+}
+.Ecommercecards
+{
+    width: 100%;
+    .row {
+        --bs-gutter-x: -0.5rem;
+    }
+    &__cards
+    {
+        width: 100%;
+        height: 446px;
+    }
+    &__image
+    {
+        width: 48px;
+        height: 48px;
+    }
+    &__header
+    {    font-size: 30px;
+    }
+    &__text
+    {
+        color: var(--text, #7A7A7A);
+        text-align: start;
+        font-family: poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        width: 100%;
+        --bs-gutter-x: -0.5rem;
+    
+    }
+ 
+    #space
+   {
+    margin-top: 20px;
+   }
+}
+}
+
+
+@media only screen and (min-width: 767px) and (max-width:1020px)
+{
+
+#eddown
+{
+    width: 51%!important;
+}
+
+#space
+{
+    width: 51%!important;
+    margin-top: 20px
+}
+// .EcommerceDevelopmentBody1
+// {
+//     margin-top: 40px!imp;
+// }
+.Ecommercehead__left__text__content
+{
+    font-size: 5.64vw;
+    line-height: unset;
+}
+
+.EcommerceDevelopmentBody1
+{
+margin-top: 40px!important;
+}
+}
